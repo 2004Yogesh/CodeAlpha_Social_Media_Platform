@@ -314,3 +314,20 @@ body{
     font-size: 14px;
     margin-left: 7px;
 }
+
+.main-post {
+    overflow-y: auto;
+    max-height: 600px; /* adjust as needed */
+    padding-right: 10px;
+    scrollbar-width: thin; /* Firefox */
+}
+
+/* Optional: Webkit scrollbar styling for Chrome */
+.main-post::-webkit-scrollbar {
+    width: 6px;
+}
+
+.main-post::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
